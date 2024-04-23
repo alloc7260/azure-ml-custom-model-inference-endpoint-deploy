@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=23.0.1
+  - pip:
+    - azureml-defaults==1.53.0
+    - torch
+    - transformers
+    - pillow
+    - pandas
+    - scipy
